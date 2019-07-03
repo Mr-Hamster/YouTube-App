@@ -1,0 +1,30 @@
+.wrapperList{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 500px;
+    border: solid 2px black;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.itemBlock{
+    display: flex;
+    width: 100%;
+    border: solid 2px black;
+}
+
+.img{
+    width: 35%;
+    height: auto;
+}
+
+.img>img{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    width: 65%;
+    text-align: center;
+}
